@@ -1,0 +1,193 @@
+.container {
+    width: 1200px;
+}
+
+.row {
+    display: flex;
+}
+
+.row-cards {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.gray-text {
+    color: #999;
+}
+
+.header-text {
+    font-size: 42px;
+}
+
+.normal-text {
+    font-size: 16px;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.menu-text {
+    font-size: 16px;
+}
+
+.menu-text-bold {
+    font-weight: bold;
+}
+
+.text-color {
+    color: #3674B5
+}
+
+.text-white {
+    color: whitesmoke;
+}
+
+.text-background {
+    background-color: #3674B5;
+}
+
+.background {
+    background-color: #d0f1fc;
+}
+
+.second-color {
+    color: #d0f1fc;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.border-radius {
+    border-radius: 5px;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.justify {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align {
+    align-items: center;
+}
+
+.menu-gap {
+    gap: 90px;
+}
+
+.card-gap {
+    gap: 30px;
+}
+
+.card-box {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.padding {
+    padding: 10px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.course-poster-border {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.poster-width {
+    width: 100%;
+}
+
+.poster-height {
+    height: 200px;
+}
+
+.poster-fit {
+    object-fit: cover;
+}
+
+.red-heart {
+    color: red;
+}
+
+.fa-heart {
+    --fa: "\f004";
+}
+
+.small-pad {
+    padding: 5px;
+}
+
+.small-br {
+    border-radius: 5px;
+}
+
+.purple-text {
+    color: #7c4cd5;
+    background-color: #e1d6f9;
+}
+
+.green-text {
+    color: #2e8b57;
+    background-color: #d0f1dc;
+}
+
+.st-color {
+    color: rgba(247, 195, 46, 1);
+}
+
+.st-gap {
+    gap: 5px;
+}
+
+.divide-line {
+    width: 100%;;
+    color: #9a9ea4;
+    opacity: 0.25;
+}
+
+.cl-color {
+    color: rgba(214, 41, 62, 1);
+}
+
+.ca-color {
+    color: rgba(253, 156, 20, 1)
+}
+
+.class-title:hover {
+    text-decoration: underline;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .row-cards {
+        display: flex;
+        flex-direction: column;
+    }
+}

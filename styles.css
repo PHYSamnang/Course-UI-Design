@@ -40,7 +40,7 @@
 }
 
 .text-color {
-    color: #3674B5
+    color: #3674B5;
 }
 
 .text-white {
@@ -190,4 +190,33 @@ img {
         display: flex;
         flex-direction: column;
     }
+}
+
+/* Added Menu */
+
+/* From Uiverse.io by Yaya12085 */ 
+.radio {
+    text-align: center;
+    font-weight: bold;
+}
+  
+.radio-inputs .radio input {
+    display: none;
+}
+
+.radio .name {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px;
+    color: #3674B5;
+    transition: all .15s ease-in-out;
+}
+  
+.radio-inputs .radio input:checked + .name {
+    background-color: #3674B5;
+    font-weight: bold;
+    color: whitesmoke;
 }

@@ -1,5 +1,6 @@
 .container {
     width: 1200px;
+    margin: auto;
 }
 
 .row {
@@ -7,6 +8,10 @@
 }
 
 .row-cards {
+    display: flex;
+}
+
+.row-menu {
     display: flex;
 }
 
@@ -192,7 +197,8 @@ img {
 @media only screen and (max-width: 600px) {
     .row-cards {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
     }
     .width-100 {
@@ -200,6 +206,10 @@ img {
     }
     .menu-gap {
         gap: 15px;
+    }
+    .row-menu {
+        display: flex;
+        justify-content: center;
     }
 }
 

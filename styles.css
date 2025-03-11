@@ -99,6 +99,10 @@
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+.box-shadow {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 .width-100 {
     width: 100%;
 }
@@ -219,4 +223,15 @@ img {
     background-color: #3674B5;
     font-weight: bold;
     color: whitesmoke;
+}
+
+.radio:hover {
+    transition: all .15s ease-in-out;
+    transform: scale(1.1);
+}
+
+.card-box:hover {
+    transition: all .15s ease-in-out;
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }

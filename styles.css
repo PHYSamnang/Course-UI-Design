@@ -138,6 +138,10 @@ img {
     object-fit: cover;
 }
 
+.white-heart {
+    color: #ccc;
+}
+
 .red-heart {
     color: red;
 }
